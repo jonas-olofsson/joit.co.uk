@@ -1,6 +1,6 @@
 # All paths
 /*
-    Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'none'; script-src 'strict-dynamic' 'nonce-rAnd0m123'; default-src 'none'; style-src 'self' https://fonts.googleapis.com/css https://d33wubrfki0l68.cloudfront.net/css; font-src https://fonts.gstatic.com/;
+    Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'none'; script-src 'strict-dynamic' 'nonce-rAnd0m123'; default-src 'none'; style-src https://fonts.googleapis.com/ https://*.cloudfront.net/; font-src https://fonts.gstatic.com/;
 	Referrer-Policy: no-referrer
     X-Frame-Options: DENY
 	X-Content-Type-Options: nosniff
