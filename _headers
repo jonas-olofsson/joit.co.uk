@@ -1,6 +1,7 @@
 # All paths
 /*
-    Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'none';
+    Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'none'; script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:;
+
     X-Frame-Options: DENY
 	X-Content-Type-Options: nosniff
 	X-XSS-Protection: 1; mode=block
