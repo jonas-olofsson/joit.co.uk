@@ -24,3 +24,6 @@ hs_err_pid*
 # Jekyll
 _site
 .sass-cache
+
+.idea/
+*.iml
