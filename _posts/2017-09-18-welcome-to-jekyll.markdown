@@ -2,24 +2,27 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-09-18 16:54:31 +0100
-categories: jekyll update
+categories: blog
+description: "Migrated my Jekyll site from GitHub Pages to Netlify."
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Greetings,
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+this is my first post on my new site. I recently moved www.joit.co.uk to GitHub pages from a shared hosting provider.
+This was mainly due to that it was hard to justify the high renewal cost as I mostly use this domain for
+my emails (Provided by Google Apps) and some blog posts.
 
-Jekyll also offers powerful support for code snippets:
+This site was previously run as a WordPress site and I took the opportunity to try setting up a static website
+backed by Jekyll. After a few days running as a GitHub pages site, I heard of www.netlify.com and after reading about
+their service, I decided to try and migrate to Netlify. Netlify offers a few perks compared to GitHub Pages, mainly...
+- HTTPS on custom domain using Letsencrypt
+- HTTP/2 connections
+- Continous deployments
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Some more readings
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
+Have a look at [Netlify][netlify] to host your static websites and front-end code
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[netlify]: https://www.netlify.com
