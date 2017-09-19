@@ -1,5 +1,12 @@
 title: JOIT Systems Ltd
 google_analytics: UA-36406618-1
+lang: en_GB
+author:
+  name: Jonas Olofsson
+  twitter: jonolo
+
+twitter:
+  username: jonolo
 
 markdown: kramdown
 
