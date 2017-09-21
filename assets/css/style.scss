@@ -2,6 +2,10 @@
 ---
 @import "cayman.css";
 @import "normalize.css";
+
+.site-title:hover { text-decoration: none; }
+.site-title { color: white; font-weight: bold;}
+
 .container {
   margin: 10px auto;
   max-width: 600px;
